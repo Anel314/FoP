@@ -15,7 +15,19 @@
 # for i in range(n):
 #     print("* " * (n-i))
 
-# a,b = int(input("A:")),int(input("B:"))
 
+# print("------------------TASK 3-------------------------")
+
+# a,b = int(input("A:")),int(input("B:"))
 # for i in range(1,b+1):
 #     print(f"{i}*{a}={i*a}")
+
+
+# print("------------------TASK 4-------------------------")
+# suma=0
+# for i in range(5+1):
+#     suma+=i
+# print(suma)
+#ALTERNATIVE: print(sum(range(6)))
+
+
