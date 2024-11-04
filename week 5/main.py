@@ -45,5 +45,51 @@
 #     return False
 
 
-# print(find_xyz("xyz.xyzxyz"))
-    
+# print(find_xyz("xyz"))
+# print(find_xyz(".xyz"))
+# print(find_xyz("xyz.xyz"))
+# print(find_xyz("xyz."))
+
+
+
+# print("----------------Additional Task  from Lejla------------------")
+
+# def is_palindrome1(s):
+#     return s == s[::-1]
+
+# def is_palindrome2(s):
+#     return s == reverse2(s)
+
+# def is_palindrome3(s):
+#     rev = ""
+#     for i in s:
+#         rev = i + rev
+#     return s == rev
+
+
+# print(is_palindrome1("racecar"))
+# print(is_palindrome2("racecar"))
+# print(is_palindrome3("racecar"))
+
+# print(is_palindrome1("Anel"))
+# print(is_palindrome2("Anel"))
+# print(is_palindrome3("Anel"))
+
+
+# print(is_palindrome1(""))
+# print(is_palindrome2(""))
+# print(is_palindrome3(""))
+
+
+
+def xyz(s):
+    for i in range(len(s)-2):
+        if s[i:i+3] == "xyz" and (s[i-1] != "." if i!=0 else True):
+            return True
+    return False
+
+
+print(xyz("xyz"))
+print(xyz(".xyz"))
+print(xyz("xyz.xyz"))
+print(xyz("xyz."))
