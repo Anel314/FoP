@@ -244,7 +244,6 @@
 # def left2(s):
 #     try:
 #         print( s[2:]+s[0] +s[1] )
-
 #     except TypeError:
 #         print("Not going to work")
 #     except IndexError:
